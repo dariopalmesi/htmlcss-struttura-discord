@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed;
 }
 /* #region common */
 
@@ -9,18 +10,11 @@
     height: 70px; 
     background-color: lightblue; 
 }
+.debug main {
+    height: 600px;    
+}
+.debug footer {
+    height: 400px;
+}
 /* #region utility */
 
-.debug{
-   border: 1px dashed;
-}
-
-.container-header {
-    width: 80%;
-    margin: auto;
-}
-
-.d-flex {
-    display: flex;
-    width: 25%;
-}
