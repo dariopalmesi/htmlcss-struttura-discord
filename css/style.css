@@ -5,25 +5,24 @@
 }
 /* #region common */
 
-
+header {
+    background-color: lightblue;
+   
+}
 /* #region utility */
 
 .debug{
-    background-color: lightblue;
     height: 70px;
+   
 }
 
 .container-header {
     width: 80%;
     margin: auto;
+    border: 1px dashed;
+  
 }
 
 .d-flex {
     display: flex;
-    width: 25%;
-    width: 48%;
-    width: 25%;
-    border: 1px dashed;
-    padding: 0.5rem;
-
 }
