@@ -18,3 +18,15 @@
 }
 /* #region utility */
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 25%;
+}
