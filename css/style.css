@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #region common */
+
+
+/* #region utility */
+
+.debug{
+    background-color: lightblue;
+    height: 70px;
+}
+
+.container-header {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    width: 25%;
+    width: 48%;
+    width: 25%;
+    border: 1px dashed;
+    padding: 0.5rem;
+
+}
