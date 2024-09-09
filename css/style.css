@@ -2,32 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed;
 }
 
 /* #region debug*/
-
-.debug header {
-    height: 70px;
+#debug * {
+    border: 1px dashed;
 }
 
-.debug main {
-    height: 1000px;
+#debug header {
+    background-color: lightblue;
 }
 
-.debug footer {
-    height: 400px;
+#debug .container-sm {
+    height: 200px;
 }
+
+#debug .w40 {
+    height: 100px;
+    background-color: lightblue;
+}
+#debug .w60 {
+    height: 100px;
+    background-color: lightcoral;
+}
+#debug .block-7 {
+    height: 100px;
+}
+
+
+
+
 
 /* #region utility */
+.bg-blu {
+    background-color: blue;
+}
+
+
 .bg-lblu {
     background-color: lightblue;
 }
 
 .container {
-    width: 50%;
+    width: 80%;
     margin: auto;
-    background-color: rosybrown;
 }
 
 .row {
@@ -43,94 +61,37 @@
     width: 50%;
 }
 
-.container-2 {
-    width: 50%;
-    margin: auto;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    padding-top: 1.5rem;
-}
 
-.block {
-    height: 150px;
-    width: 70%;
-    background-color: blueviolet;
-}
 
-.bg-blu {
-    background-color: blue;
-}
-
-.block-2 {
-    height: 100px;
-    width: 55%;
-    background-color: lightblue;
-}
-
-.block-3 {
-    height: 100px;
+.w40 {
     width: 40%;
-    background-color: rosybrown;
 }
+.w60 {
+    width: 60%;
+}
+
+
 
 .bg-ltg {
     background-color: lightgrey;
 }
 
-.container-3 {
-    width: 50%;
-    margin: auto;
-    height: 200px;
-}
-
-.block-4 {
-    height: 100px;
-    width: 40%;
-    background-color: rosybrown;
-}
-
-.block-5 {
-    height: 100px;
-    width: 55%;
-    background-color: lightblue;
-}
-
-.container-4 {
-    width: 50%;
-    margin: auto;
-    height: 300px;
-}
-
-.block-6 {
-    height: 150px;
-    width: 70%;
-    background-color: green;
-}
-
 .row-2 {
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding: 1.5rem;
 }
 
 .block-7 {
-    height: 100px;
+
     width: 55%;
     background-color: salmon;
 }
 
 .block-8 {
-    height: 100px;
+    
     width: 40%;
     background-color: aqua;
-}
-
-.container-5 {
-    width: 50%;
-    margin: auto;
-    height: 200px;
-    ;
 }
 
 .bg-dkg {
